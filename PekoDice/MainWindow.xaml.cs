@@ -71,7 +71,7 @@ namespace PekoDice
 
         private void RunQ2(object sender, RoutedEventArgs e)
         {
-            string SavePath = Environment.CurrentDirectory + @"/DiceNage2.xlsx";
+            string SavePath = Environment.CurrentDirectory + @"/DiceNage3.xlsx";
             Workbook WB1 = new Workbook();
             Worksheet Sheet1 = WB1.Worksheets[0];
             int NDice;

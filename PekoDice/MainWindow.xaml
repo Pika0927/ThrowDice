@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PekoDice"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="Peko" Height="100" Width="200">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+            <TextBlock Height="20">Q1</TextBlock>
+            <TextBox x:Name="Q1Number" Width="100" Height="20" Margin="5,0,0,0"></TextBox>
+            <Button Click="RunQ1" Margin="5,0,0,0">ぺこ</Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10,10,0,0">
+            <TextBlock Height="20">Q2</TextBlock>
+            <TextBox x:Name="Q2Number" Width="100" Height="20" Margin="5,0,0,0"></TextBox>
+            <Button Click="RunQ2" Margin="5,0,0,0">ぺこ</Button>
+        </StackPanel>
+    </StackPanel>
 </Window>
